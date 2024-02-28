@@ -7,9 +7,8 @@ import (
 	"context"
 	"testing"
 
-	"github.com/hashicorp/go-hclog"
-
 	"github.com/hashicorp/eventlogger"
+	"github.com/hashicorp/go-hclog"
 	"github.com/hashicorp/vault/audit"
 	"github.com/hashicorp/vault/internal/observability/event"
 	"github.com/hashicorp/vault/sdk/helper/salt"
